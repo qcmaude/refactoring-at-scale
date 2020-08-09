@@ -1,0 +1,15 @@
+{
+  "name": "refactoring-at-scale-code-samples",
+  "version": "1.0.0",
+  "description": "Code from Refactoring at Scale",
+  "main": "index.js",
+  "repository": "git@github.com:qcmaude/refactoring-at-scale-code-samples.git",
+  "author": "Maude Lemaire <maude.codes@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.2.2"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
