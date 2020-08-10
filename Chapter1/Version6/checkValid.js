@@ -13,13 +13,13 @@ function checkValid(minimumBound, maximumBound, grades, useAverage = false) {
   let max = Math.max(...grades);
 
   if (useAverage) {
-    return checkAverageWithinBounds(minimumBound, maximumBound, grades);
+    return checkAverageInBounds(minimumBound, maximumBound, grades);
   }
 
-  return checkAllGradesWithinBounds(minimumBound, maximumBound, grades);
+  return checkAllGradesInBounds(minimumBound, maximumBound, grades);
 }
 
-function checkAllGradesWithinBounds(minimumBound, maximumBound, grades) {
+function checkAllGradesInBounds(minimumBound, maximumBound, grades) {
   var min = Math.min(...grades);
   var max = Math.max(...grades);
 
@@ -28,7 +28,7 @@ function checkAllGradesWithinBounds(minimumBound, maximumBound, grades) {
   return true;
 }
 
-function checkAverageWithinBounds(minimumBound, maximumBound, grades) {
+function checkAverageInBounds(minimumBound, maximumBound, grades) {
   var avg = calculateAverage(grades);
   if (avg < minimumBound) return false;
   if (avg > maximumBound) return false;

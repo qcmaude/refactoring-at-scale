@@ -11,5 +11,8 @@
   },
   "scripts": {
     "test": "jest"
+  },
+  "dependencies": {
+    "escomplex": "^2.0.0-alpha"
   }
 }
