@@ -906,6 +906,11 @@ char-regex@^1.0.2:
   resolved "https://registry.yarnpkg.com/char-regex/-/char-regex-1.0.2.tgz#d744358226217f981ed58f479b1d6bcc29545dcf"
   integrity sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==
 
+check-types@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/check-types/-/check-types-5.1.0.tgz#37394dd3b6042a51155e926c3a91753d499e5dc8"
+  integrity sha1-NzlN07YEKlEVXpJsOpF1PUmeXcg=
+
 ci-info@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-2.0.0.tgz#67a9e964be31a51e15e5010d58e6f12834002f46"
@@ -1195,6 +1200,13 @@ escodegen@^1.14.1:
     optionator "^0.8.1"
   optionalDependencies:
     source-map "~0.6.1"
+
+escomplex@^2.0.0-alpha:
+  version "2.0.0-alpha"
+  resolved "https://registry.yarnpkg.com/escomplex/-/escomplex-2.0.0-alpha.tgz#fd6a79865d9baf57c4c3ed1b2fe677714e449606"
+  integrity sha1-/Wp5hl2br1fEw+0bL+Z3cU5ElgY=
+  dependencies:
+    check-types "^5.1.0"
 
 esprima@^4.0.0, esprima@^4.0.1:
   version "4.0.1"
@@ -3497,9 +3509,9 @@ write-file-atomic@^3.0.0:
     typedarray-to-buffer "^3.1.5"
 
 ws@^7.2.3:
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.3.1.tgz#d0547bf67f7ce4f12a72dfe31262c68d7dc551c8"
-  integrity sha512-D3RuNkynyHmEJIpD2qrgVkc9DQ23OrN/moAwZX4L8DfvszsJxpjQuUq3LMx6HoYji9fbIOBY18XWBsAux1ZZUA==
+  version "7.4.6"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"
+  integrity sha512-YmhHDO4MzaDLB+M9ym/mDA5z0naX8j7SIlT8f8z+I0VtzsRbekxEutHSme7NPS2qE8StCYQNUnfWdXta/Yu85A==
 
 xml-name-validator@^3.0.0:
   version "3.0.0"
