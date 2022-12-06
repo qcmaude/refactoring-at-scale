@@ -906,6 +906,11 @@ char-regex@^1.0.2:
   resolved "https://registry.yarnpkg.com/char-regex/-/char-regex-1.0.2.tgz#d744358226217f981ed58f479b1d6bcc29545dcf"
   integrity sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==
 
+check-types@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/check-types/-/check-types-5.1.0.tgz#37394dd3b6042a51155e926c3a91753d499e5dc8"
+  integrity sha512-avyYsSECJeYxowzVMGxzwXz9gc+LAEQ8l8nDVRJqbJilfwHDBPxpjTZC0mb1gr8AAARDc/I7P4+IG6SxokWWmw==
+
 ci-info@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-2.0.0.tgz#67a9e964be31a51e15e5010d58e6f12834002f46"
@@ -1084,9 +1089,9 @@ decimal.js@^10.2.0:
   integrity sha512-vDPw+rDgn3bZe1+F/pyEwb1oMG2XTlRVgAa6B4KccTEpYgF8w6eQllVbQcfIJnZyvzFtFpxnpGtx8dd7DJp/Rw==
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-is@~0.1.3:
   version "0.1.3"
@@ -1195,6 +1200,13 @@ escodegen@^1.14.1:
     optionator "^0.8.1"
   optionalDependencies:
     source-map "~0.6.1"
+
+escomplex@^2.0.0-alpha:
+  version "2.0.0-alpha"
+  resolved "https://registry.yarnpkg.com/escomplex/-/escomplex-2.0.0-alpha.tgz#fd6a79865d9baf57c4c3ed1b2fe677714e449606"
+  integrity sha512-svXitH4tBpW1CPLlGQOxZrqosDj/88GEIoul1bM7WpVGgBnp/5RXb2L0Fo62TAt56k1ZrqTgn+93vnLsAchCcw==
+  dependencies:
+    check-types "^5.1.0"
 
 esprima@^4.0.0, esprima@^4.0.1:
   version "4.0.1"
