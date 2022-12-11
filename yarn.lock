@@ -906,6 +906,11 @@ char-regex@^1.0.2:
   resolved "https://registry.yarnpkg.com/char-regex/-/char-regex-1.0.2.tgz#d744358226217f981ed58f479b1d6bcc29545dcf"
   integrity sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==
 
+check-types@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/check-types/-/check-types-5.1.0.tgz#37394dd3b6042a51155e926c3a91753d499e5dc8"
+  integrity sha512-avyYsSECJeYxowzVMGxzwXz9gc+LAEQ8l8nDVRJqbJilfwHDBPxpjTZC0mb1gr8AAARDc/I7P4+IG6SxokWWmw==
+
 ci-info@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-2.0.0.tgz#67a9e964be31a51e15e5010d58e6f12834002f46"
@@ -1195,6 +1200,13 @@ escodegen@^1.14.1:
     optionator "^0.8.1"
   optionalDependencies:
     source-map "~0.6.1"
+
+escomplex@^2.0.0-alpha:
+  version "2.0.0-alpha"
+  resolved "https://registry.yarnpkg.com/escomplex/-/escomplex-2.0.0-alpha.tgz#fd6a79865d9baf57c4c3ed1b2fe677714e449606"
+  integrity sha512-svXitH4tBpW1CPLlGQOxZrqosDj/88GEIoul1bM7WpVGgBnp/5RXb2L0Fo62TAt56k1ZrqTgn+93vnLsAchCcw==
+  dependencies:
+    check-types "^5.1.0"
 
 esprima@^4.0.0, esprima@^4.0.1:
   version "4.0.1"
@@ -2721,9 +2733,9 @@ punycode@^2.1.0, punycode@^2.1.1:
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 react-is@^16.12.0:
   version "16.13.1"
